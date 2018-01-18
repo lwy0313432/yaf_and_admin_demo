@@ -1,0 +1,5 @@
+export const SET_USER_INFO = 'SET_USER_INFO'
+export const REMOVE_USER_INFO = 'REMOVE_USER_INFO'
+export const SET_NAV_LINKS = 'SET_NAV_LINKS'
+export const REMOVE_NAV_LINKS = 'REMOVE_NAV_LINKS'
+export const SET_NAV_MENU = 'SET_NAV_MENU'

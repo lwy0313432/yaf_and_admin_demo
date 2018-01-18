@@ -1,0 +1,124 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+html,
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 100%;
+    color: #5a5e66;
+    font-size: 14px;
+}
+
+#app {}
+
+.main-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.main-box>.el-header {
+    background-color: #1F2D3D;
+    color: #c0ccda;
+    line-height: 60px;
+    height: 60px;
+}
+
+.main-box>.el-container>.el-aside {
+    background-color: rgb(84, 92, 100);
+}
+
+.main-box>.el-container>.el-aside>.el-menu {
+    border-right: 1px solid rgb(84, 92, 100);
+}
+
+.main-box>.el-container>.el-main {
+    background-color: #f1f2f7;
+}
+
+.main-panel-box {
+    padding: 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.row-box {
+    margin-bottom: 15px;
+}
+
+.row-box>strong {
+    font-size: 16px;
+}
+
+.row-box .txt-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-box .txt-content .l-item {
+    flex: 1;
+    line-height: 20px;
+    padding: 10px;
+    background-color: #DFE4ED;
+    border-right: 1px solid #e6ebf5;
+    border-bottom: 1px solid #e6ebf5;
+}
+
+.row-box .txt-content .r-item {
+    flex: 1;
+    padding: 10px;
+    line-height: 20px;
+    border-right: 1px solid #e6ebf5;
+    border-bottom: 1px solid #e6ebf5;
+}
+
+.border-top {
+    border-top: 1px solid #e6ebf5;
+}
+
+.border-left {
+    border-left: 1px solid #e6ebf5;
+}
+
+
+
+
+// flex
+.flex{display: flex;}
+.flex-item{flex:1;}
+
+// form
+.loan-form-wrap{    width: 70%;}
+.loan-form-wrap .el-form-item .el-input{width:194px;}
+.loan-form-wrap .papers img{width: 300px;height: 200px;}
+.loan-form-wrap .papers img:last-child{margin-left:20px;}
+.loan-form-wrap .check-result-label{margin-top: 28px;}
+.loan-form-wrap ul li{line-height:20px;}
+.loan-form-wrap .audit-status{margin-top: 28px;}
+.loan-form-wrap .feedback{margin-top: 28px;}
+// 借贷标题
+.admin_list_title{margin-bottom:10px;}
+.admin_list_title .el-badge:first-child{margin-left: 0;}
+.admin_list_title .el-badge{margin-left: 50px;}
+.admin_list_title .item .acitved{background:#409EFF;color:#fff;}

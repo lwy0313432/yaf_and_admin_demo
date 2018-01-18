@@ -1,0 +1,19 @@
+2017-11-29 Version: 3.1.0
+1, add API AddCasterComponent,DeleteCasterComponent,DescribeCasterComponents
+2, update API UpdateCasterSceneConfig,SetCasterSceneConfig,DescribeCasterScenes  
+3, optimize API DescribeCasterComponents,DescribeCasterVideoResources,DescribeCasterLayouts  
+
+2017-11-14 Version: 3.0.0
+1, 增加导播台相关接口(接口名称包含caster)
+2, 增加查询流历史在线人数接口DescribeLiveStreamHistoryUserNum
+3, 修改添加鉴黄配置接口AddLiveSnapshotDetectPornConfig，增加scenes参数
+4, 修改更新鉴黄配置接口UpdateLiveSnapshotDetectPornConfig，增加scenes参数
+
+2017-09-06 Version: 2.7.0
+1, 增加拉流配置接口AddLivePullStreamInfoConfig。
+2, 增加删除拉流配置接口DeleteLivePullStreamInfoConfig。
+3, 增加查询拉流配置接口DescribeLivePullStreamConfig。
+
+2017-08-01 Version: 2.6.0
+1, 增加了DescribeLiveStreamBitRateData接口,提供流粒度帧率码率历史查询。
+
